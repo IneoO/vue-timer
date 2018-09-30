@@ -1,4 +1,5 @@
 # vue-timer
+[![2018-09-30-220147_1920x1080_scrot.png](https://i.postimg.cc/28Dx3b3n/2018-09-30-220147_1920x1080_scrot.png)](https://postimg.cc/14vFjzGz)
 
 ## Project setup
 ```
