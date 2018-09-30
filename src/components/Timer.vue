@@ -54,11 +54,13 @@ export default {
   },
   methods: {
     startCountdown() {
-      if (this.interval) {
+      if (this.started) {
         clearInterval(this.interval);
       }
       if (!this.pause) {
         this.timer = this.countdown * 60000;
+        this.time = this.timer;
+        this.timeElapsed = 0;
       }
       this.startTimer = new Date();
       this.started = true;
